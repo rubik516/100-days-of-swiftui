@@ -37,8 +37,8 @@ This is the very first project of my [100 Days of SwiftUI](https://www.hackingwi
   </tr>
   <tr>
     <td>A humorous error message when there is 0 sharee :)</td>
-    <td>WeSpit app icon designed by me ✨</td>
-    <td>How WeSpit app looks on iPhone home screen</td>
+    <td>WeSplit app icon designed by me ✨</td>
+    <td>How WeSplit app looks on iPhone home screen</td>
   </tr>
   <tr>
     <td><img src="screenshots/wesplit-screen-4.PNG" width=290 height=630></td>
