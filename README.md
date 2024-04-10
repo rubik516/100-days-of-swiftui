@@ -6,4 +6,5 @@ This repository documents my journey in the [100 Days of SwiftUI](https://www.ha
 - Day 16-18: [Project 1 - WeSplit](./WeSplit)
 - Day 19: [Mini Challenge 1 - UnitConverter](./UnitConverter)
 - Day 20-22: [Project 2 - GuessDaFlag](./GuessDaFlag)
+- Day 23-24: Project 3 - Views and Modifiers in depth (technique project)
 
