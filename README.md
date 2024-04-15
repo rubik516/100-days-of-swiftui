@@ -8,4 +8,4 @@ This repository documents my journey in the [100 Days of SwiftUI](https://www.ha
 - Day 20-22: [Project 2 - GuessDaFlag](./GuessDaFlag)
 - Day 23-24: Project 3 - Views and Modifiers in depth (technique project)
 - Day 25: [Milestone 1 - RockPaperScissors](./RockPaperScissors)
-
+- Day 26-28: [Project 4 - BetterRest](./BetterRest)
