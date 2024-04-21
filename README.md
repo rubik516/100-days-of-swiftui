@@ -10,4 +10,5 @@ This repository documents my journey in the [100 Days of SwiftUI](https://www.ha
 - Day 25: [Milestone 1 - RockPaperScissors](./RockPaperScissors)
 - Day 26-28: [Project 4 - BetterRest](./BetterRest)
 - Day 29-31: [Project 5 - WordScramble](./WordScramble)
+- Day 32-34: Project 6 - Animations (technique project)
 
