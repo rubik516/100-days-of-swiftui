@@ -13,5 +13,5 @@ This repository documents my journey in the [100 Days of SwiftUI](https://www.ha
 - Day 32-34: Project 6 - Animations (technique project)
 - Day 35: [Milestone 2 - MATHertainment](./Edutainment)
 - Day 36-38: [Project 7 - iExpense](./iExpense)
-
+- Day 39-42: [Project 8 - Moonshot](./Moonshot)
 
