@@ -58,18 +58,23 @@ struct ExpensesSection: View {
     
     var body: some View {
         Section(header) {
-            ForEach(expenses.items) { item in
-                HStack {
-                    VStack(alignment: .leading) {
-                        Text(item.name)
-                            .font(.headline)
-                        Text(item.type.rawValue)
+            if expenses.items.count == 0 {
+                Text("No expenses have been recorded yet.")
+                    .listRowBackground(Color(UIColor.systemGroupedBackground))
+            } else {
+                ForEach(expenses.items) { item in
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(item.name)
+                                .font(.headline)
+                            Text(item.type.rawValue)
+                        }
+                        Spacer()
+                        Text(item.amount, format: .currency(code: PREFERRED_CURRENCY))
                     }
-                    Spacer()
-                    Text(item.amount, format: .currency(code: PREFERRED_CURRENCY))
                 }
+                .onDelete(perform: removeItems)
             }
-            .onDelete(perform: removeItems)
         }
     }
 }
@@ -126,6 +131,7 @@ struct ContentView: View {
             .alert("Clear all expenses?", isPresented: $showingClearExpenses) {
                 Button("Clear", role: .destructive) {
                     expenses.clearUserDefaults()
+                    expenses.items = [ExpenseItem]()
                 }
             } message: {
                 Text("All expenses will be discarded. This action cannot be undone.")
