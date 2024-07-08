@@ -15,5 +15,6 @@ This repository documents my journey in the [100 Days of SwiftUI](https://www.ha
 - Day 36-38: [Project 7 - iExpense](./iExpense)
 - Day 39-42: [Project 8 - Moonshot](./Moonshot)
 - Day 43-46: Project 9 - Navigation (technique project)
+- Day 47: [Milestone 3 - HabitTracker](./HabitTracker)
 
 
