@@ -17,4 +17,6 @@ This repository documents my journey in the [100 Days of SwiftUI](https://www.ha
 - Day 43-46: Project 9 - Navigation (technique project)
 - Day 47: [Milestone 3 - HabitTracker](./HabitTracker)
 - Day 48: Break day - Watch videos about Swift and SwiftUI
+- Day 49-52: [Project 10 - CupcakeCorner](./CupcakeCorner)
+
 
